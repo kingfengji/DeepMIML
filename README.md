@@ -80,14 +80,16 @@ If you want to Visualize the MIML analysis for the n-th image in the test set,
 run the command below: (here n is the first 2 test data)
 
 
-(--data N means use the N-th image in the coco validatation dataset.)
-
-
-
 ```
 python demo/demo_vis_miml_vgg.py --model outputs/coco_2014_train/miml_vgg_16 --data 1
 python demo/demo_vis_miml_vgg.py --model outputs/coco_2014_train/miml_vgg_16 --data 2
 ```
+
+It means, use the model in outputs/coco_2014_train/miml_vgg_16 (--model), 
+
+and test it on the test set. (--data N means use the N-th image in the coco validatation dataset.)
+
+
 It will produce 2 visualization per test sample: (as illustrated in the original paper)
 
 The result for the first image:
