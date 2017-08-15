@@ -92,13 +92,13 @@ It will produce 2 visualization per test sample: (as illustrated in the original
 
 The result for the first image:
 
-![1-analysis](1-analysis.jpg)
+![1-analysis](1-analysis.jpeg)
 
 ![1-result](1-result.jpg)
 
 The result for the second image:
 
-![2-analysis](2-analysis.jpg)
+![2-analysis](2-analysis.jpeg)
 
 ![2-result](2-result.jpg)
 
