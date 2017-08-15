@@ -77,10 +77,10 @@ python demo/demo_train_miml_vgg.py
 ## Visualization  
 
 If you want to Visualize the MIML analysis for the n-th image in the test set, 
-run the command below: (here n is 2)
+run the command below: (here n is the first 2 test data)
 
 
-(--data 2 means use the 2nd image in the coco validatation dataset.)
+(--data N means use the N-th image in the coco validatation dataset.)
 
 
 
@@ -92,15 +92,15 @@ It will produce 2 visualization per test sample: (as illustrated in the original
 
 The result for the first image:
 
-![1-analysis](1-analysis.jpeg)
+![result1](result1.jpg)
 
-![1-result](1-result.jpg)
+ 
 
 The result for the second image:
 
-![2-analysis](2-analysis.jpeg)
+![result2](result2.JPG)
 
-![2-result](2-result.jpg)
+ 
 
 
 ## Result Evaluation
