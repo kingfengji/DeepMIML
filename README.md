@@ -85,16 +85,23 @@ run the command below: (here n is 2)
 
 
 ```
+python demo/demo_vis_miml_vgg.py --model outputs/coco_2014_train/miml_vgg_16 --data 1
 python demo/demo_vis_miml_vgg.py --model outputs/coco_2014_train/miml_vgg_16 --data 2
 ```
-It will produce 2 visualization as below: (as illustrated in the original paper)
+It will produce 2 visualization per test sample: (as illustrated in the original paper)
 
+The result for the first image:
 
-![instance-label](instance-label.jpg)
+![1-analysis](1-analysis.jpg)
 
+![1-result](1-result.jpg)
 
+The result for the second image:
 
-![annotation](annotation.jpg)
+![2-analysis](2-analysis.jpg)
+
+![2-result](2-result.jpg)
+
 
 ## Result Evaluation
 
