@@ -87,7 +87,7 @@ python demo/demo_vis_miml_vgg.py --model outputs/coco_2014_train/miml_vgg_16 --d
 
 It means, use the model in outputs/coco_2014_train/miml_vgg_16 (--model), 
 
-and test it on the test set. (--data N means use the N-th image in the coco validatation dataset.)
+and test it on the test set. (--data N means use the N-th image in the test set.)
 
 
 It will produce 2 visualization per test sample: (as illustrated in the original paper)
