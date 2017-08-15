@@ -1,0 +1,5 @@
+keras==1.2.2
+theano>=0.9.0
+matplotlib
+scikit-learn
+numpy
